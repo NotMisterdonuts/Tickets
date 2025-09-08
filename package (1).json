@@ -1,15 +1,20 @@
 {
-  "name": "discord-ticket-bot",
+  "name": "discord-ticket-bot-fivem",
   "version": "1.0.0",
-  "description": "Bot de tickets para Discord",
+  "description": "Bot de tickets profesional para servidores FiveM con sistema avanzado de soporte",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "node index.js"
+    "dev": "node index.js",
+    "test": "node index.js"
   },
   "dependencies": {
     "discord.js": "^14.15.3"
   },
-  "author": "",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["discord", "bot", "tickets", "fivem", "support"],
+  "author": "Tu Nombre",
   "license": "MIT"
 }
